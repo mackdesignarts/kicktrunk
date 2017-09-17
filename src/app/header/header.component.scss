@@ -1,0 +1,24 @@
+.bg-nav {
+  background: #fff;
+  color: #041f45;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #174b80;
+    transition: 0.35s;
+}
+
+.main-logo {
+  width: 35px;
+}
+
+.z-depth-1, .jumbotron, .navbar, .badge, .chip, .btn, .card:not([class*="card-outline-"]), .pagination .active .page-link, .modal-dialog.cascading-modal .modal-c-tabs .nav-tabs, .modal-dialog.modal-notify .modal-header {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+@media (min-width: 600px){
+  .navbar.scrolling-navbar {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+  }
+}
